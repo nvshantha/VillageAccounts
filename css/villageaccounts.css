@@ -1,0 +1,93 @@
+/*!
+ * Start Bootstrap - SB Admin 2 Bootstrap Admin Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+* { -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;} 
+html{font-family:san-serif,FontAwesome;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+body { background-color: #E1F8BC; margin:0; }
+a {outline:0 }
+.container { width:100%; margin:0 auto;} 
+/*@media (min-width: 768px) {.container { width: 750px;}}
+@media (min-width: 992px) {.container { width: 970px;}}
+@media (min-width: 1200px) {.container {width: 1170px;}}
+#banner { border-bottom:3px solid #78DA66; }44A42C*/
+#banner, #footer, ul.topnav>li:hover { background-color:#620062; color:#ffffff;}
+#banner img{ height:50px; width:50px; border-radius:50%; background-color:#ffffff;}
+#banner .heading {display:inline-block; min-width:250px;}
+#banner .heading>a{color:#ffffff; }
+#banner h1, h4, h6 { margin-top:0px; margin-bottom:0px;font-family:'BAMINI';}
+#banner .heading a {text-decoration: none;}
+/*#banner .heading a:active,a:hover { outline: 0;}*/
+#banner .headingright>h4, .user {display:inline-block; }
+#banner .headingright {position:absolute;right:20px;top:20px;}
+#banner .headingright .user {border-radius:50%; text-align:center;font-size:20px;vertical-align:middle;padding:6px 0px;pointer;}
+#banner .headingright .user:hover{background-color:#ffffff;  color:#620062; }
+#footer {position:absolute;width:inherit;bottom:10px;text-align:center;}
+ul {list-style-type: none; margin: 0;padding: 0; overflow: hidden; background-color: #44A42C;}/*78DA66*/
+ul.topnav>li {float:left; text-align:center; width:140px;}
+ul.topnav>li>a, ul.topnav li ul li.icon a {display:inline-block;color:#ffffff;text-decoration:none;transition:0.3s;font-size:17px; padding:10px 0px;cursor:pointer;}
+ul.topnav li.icon, ul.topnav li ul.icon {display: none;}
+/*ul.topnav li:not(:first-child) {border-left:inset; border-left-color:#267626;}*/
+@media screen and (max-width:680px) { ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon, ul.topnav li ul.icon {float: right;display: inline-block;}}
+@media screen and (max-width:680px) {ul.topnav.responsive,ul.topnav.responsive li ul {position: relative;}
+  ul.topnav.responsive li.icon, ul.topnav.responsive li ul.icon  {position: absolute;right: 0;top: 0;}
+  ul.topnav.responsive li, ul.topnav.responsive li ul li {float: none;display: inline;}
+  ul.topnav.responsive li a ,ul.topnav.responsive li ul li a {display: block;text-align: left;}
+
+  /*ul.topnav.responsive li ul {position:relative; }
+  ul.topnav.responsive li ul li {float:none; display:inline;}
+  ul.topnav.responsive li ul li a {display:block; text-align:left;}*/
+  
+  }
+#loginpanel {position:relative;top:50px;width:400px; margin:0 auto;border:1px solid #FF8920;border-radius:4px;}
+#loginpanel .heading{padding:10px 20px;background-color:#FF8920;text-align:left;color:#FFFFFF;font-size:20px;}
+#loginpanel .iconbox {display:table; width:100%; height:40px; margin-top:15px; margin-bottom:15px;}
+#loginpanel .form-control {border-top-left-radius:0px; border-bottom-left-radius:0px; width:100%; margin-left:0px; height:inherit;}
+#loginpanel .fa {display:table-cell; width:40px;vertical-align:middle;background-color:#fff;font-size: 14px; border:1px solid #ccc; border-top-left-radius:5px; border-bottom-left-radius:5px;}
+.form-control{display:block; height:34px;padding: 6px 12px;font-size:16px;line-height:1.42857143;color:#555;
+              background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:5px;}
+.form-control:focus {border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}
+.btn {display: inline-block; padding: 6px 12px;  margin-bottom: 0;  font-size: 14px;  font-weight: normal;  line-height: 1.42857143;
+      text-align: center;  white-space: nowrap;  vertical-align: middle;  -ms-touch-action: manipulation;touch-action: manipulation;
+      cursor: pointer;  -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;  background-image: none;
+      border: 1px solid transparent;  border-radius: 4px;outline:0;}
+.btn:focus,.btn:active {outline: 0;}
+.btn:hover, {color: #333;  text-decoration: none;}
+.btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}
+.btn-primary.focus,.btn-primary:focus{color:#fff;background-color:#286090;border-color:#122b40}
+.btn-primary:hover{color:#fff;background-color:#286090;border-color:#204d74}
+.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}
+.btn-warning.focus,.btn-warning:focus{color:#fff;background-color:#ec971f;border-color:#985f0d}
+.btn-warning:hover{color:#fff;background-color:#ec971f;border-color:#d58512}
+@font-face {
+  font-family: 'FontAwesome';
+  src: local('FontAwesome');
+  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal; font-style: normal;}
+/*@font-face {
+  font-family: 'BAMINI';
+  src: url('../fonts/BAMINI.TTF');
+  font-weight: normal; font-style: normal;}
+
+.fa {display: inline-block;font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;
+  -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+/*.fa-user-round {height:36px; width:40px; border-radius:50%; background-color:#ffffff; text-align:center;}*/
+.fa-user:before {font-style: normal; content: "\f007";}
+.fa-key:before{font-style: normal;content:"\f084"}
+.fa-sign-out:before{font-style: normal;content:"\f08b"}
+.fa-caret-down:before {font-style: normal;content: "\f0d7";}
+.fa-fw { width: 1.28571429em;text-align: center;}
+.userdropdown-content.pullright {right:0px;left:auto;}
+.userdropdown-content {display:none;position:absolute;margin-top:-1px; margin-bottom:0px;background-color:#f9f9f9;
+    overflow: auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);font-size:medium;z-index:9999;
+    text-align:left;padding:5px 5px;width:inherit;}
+.userdropdown-content a {color: black;padding: 5px 10px;text-decoration: none;display: block;}
+.userdropdown-content a:hover { background-color:#620062; color:white;}
+/*.show { display:block; }*/
+.user:hover .userdropdown-content {display:block;}
+ul.topnav>li:hover .userdropdown-content {display:block;}
